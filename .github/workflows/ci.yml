@@ -32,8 +32,8 @@ jobs:
 
     - name: run linter
     - uses: Adzz/jest_test_action@v1.0.0
-        with:
-          command: eslint
+      with:
+        command: eslint
 
     - name: Build
       run: npm run build
